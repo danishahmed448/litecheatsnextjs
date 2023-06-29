@@ -1,0 +1,32 @@
+{
+    "name": "Flavors Of Kalimpong",
+    "short_name": "Flavors Of Kalimpong",
+    "description": "Discover the captivating flavors of Kalimpong with Flavors Of Kalimpong. Explore handcrafted pickles and snacks, including the legendary Dalle pickle, dry beef, bamboo shoots, and more. Experience the essence of Himalayan cuisine. Order now!", 
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+          },
+          {
+            "src": "/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+          }
+    ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}

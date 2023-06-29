@@ -1,0 +1,18 @@
+# *
+User-agent: *
+Disallow: /404
+
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.flavorsofkalimpong.in
+
+# Sitemaps
+Sitemap: https://www.flavorsofkalimpong.in/sitemap.xml
+Sitemap: https://www.flavorsofkalimpong.in/sitemap-products.xml
+Sitemap: https://www.flavorsofkalimpong.in/sitemap-categories.xml
+Sitemap: https://www.flavorsofkalimpong.in/sitemap-blogcategories.xml
+Sitemap: https://www.flavorsofkalimpong.in/sitemap-blogpost.xml
+Sitemap: https://www.flavorsofkalimpong.in/sitemap-blogsubcategory.xml

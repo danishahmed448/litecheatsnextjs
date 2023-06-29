@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,textarea,select{
+    @apply border border-gray-200 rounded-sm px-1 w-full py-2 px-3 text-base;
+    @apply mb-2;
+}
+
+input:focus,textarea:focus,select:focus{
+    @apply border-blue-900;
+}
+
+h1{
+    @apply text-gray-800 mb-4 text-xl;
+}
+
+label{
+    @apply text-gray-600 text-sm;
+}
+
+.btn-primary{
+    @apply bg-primary text-white px-4 py-1 rounded-sm shadow-sm;
+}
+.table-container{
+    @apply overflow-x-scroll;
+}
+.table-container::-webkit-scrollbar {
+    width: 5px;
+}
+
+.table-container::-webkit-scrollbar-track {
+    border-radius: 4px;
+}
+
+.table-container::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.15);
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0);
+    background-clip: padding-box;
+}
+
+.table-container::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0,0,0,0.15);
+}
+table.basic{
+    @apply w-full bg-white rounded-sm shadow-md overflow-x-auto ;
+}
+table.basic thead tr td{
+    @apply text-sm text-gray-600 uppercase border-b border-gray-200 px-4 py-2;
+}
+table.basic tr td{
+    @apply px-4 py-1;
+}
+table.basic a{
+    @apply text-white px-4 rounded-sm inline-flex gap-1 mx-1 items-center bg-gray-600 text-sm py-1 mb-0.5;
+}
+.btn-red,.btn-default{
+    @apply px-4 py-1 rounded-sm shadow-sm;
+}
+.btn-red ,table.basic a.btn-red{
+    @apply bg-red-500 text-white;
+}
+
+.btn-default,table.basic a.btn-default{
+    @apply bg-white text-gray-800 border border-gray-300 ;
+    
+}
+.button-cell {
+    
+    white-space: nowrap; /* Prevent the buttons from wrapping to the next line */
+  }
